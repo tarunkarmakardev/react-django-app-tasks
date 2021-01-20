@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,uEAAI,CACZ,OAAO,CAAC,iEAAI,CFEZ,AAAA,SAAS,AAAC,CACR,WAAW,CAAE,qBAAqB,CAClC,SAAS,CAAE,IAAI,CACf,KAAK,CCFQ,OAAO,CDGpB,cAAc,CAAE,IAAI,CACrB",
+    "sources": [
+        "../scss/heading.module.scss",
+        "../scss/_variables.scss",
+        "../scss/_fonts.scss"
+    ],
+    "names": [],
+    "file": "heading.module.css"
+}

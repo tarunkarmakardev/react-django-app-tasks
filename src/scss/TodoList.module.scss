@@ -1,0 +1,40 @@
+@import "./variables";
+@import "./fonts";
+
+.todoListContainer {
+  box-sizing: border-box;
+  background-color: map-get($map: $colors, $key: "beta");
+  width: 100%;
+  min-height: 400px;
+  .todoList {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: unset;
+    .todoListItem {
+      display: flex;
+      justify-content: flex-start;
+      padding: 1.2rem;
+      border-bottom: 0.25px solid map-get($map: $colors, $key: "alpha");
+      transition: all 0.2s;
+      font-family: "Syne", sans-serif;
+      text-transform: capitalize;
+      &:hover {
+        background-color: map-get($map: $colors, $key: "alpha");
+        color: map-get($map: $colors, $key: "alpha-light");
+      }
+      * {
+        margin-right: 1rem;
+      }
+      .todoDelete {
+        margin-left: auto;
+        transform: scale(1);
+        transition: all 0.1s;
+        &:hover {
+          cursor: pointer;
+          color: map-get($map: $colors, $key: "gamma");
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

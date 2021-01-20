@@ -1,0 +1,9 @@
+@import "./variables";
+@import "./fonts";
+
+.appTitle {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  color: map-get($map: $colors, $key: "alpha-light");
+  letter-spacing: 1rem;
+}
