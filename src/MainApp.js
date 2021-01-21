@@ -6,7 +6,7 @@ import "./css/MainApp.css";
 
 function MainApp() {
   let [listItems, setListItems] = useState([]);
-  const url = "http://127.0.0.1:8000/tasks/";
+  const url = "https://tasks-todo-app.herokuapp.com/tasks/";
 
   const fetchTasks = () => {
     fetch(url)
